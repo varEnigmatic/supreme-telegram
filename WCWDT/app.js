@@ -32,7 +32,7 @@ descriptionButton.addEventListener('click', () => {
 });
 
 addItemButton.addEventListener('click', () => {
-  let trm = trim(addItemInput.value);
+  let trm = addItemInput.value;
 
   if(addItemInput.value !== ''){
   let ul = document.getElementsByTagName('ul')[0];
